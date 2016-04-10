@@ -231,7 +231,7 @@ fun W (Var x) A = ([], (lookup A x))
       (s1 @ s2 @ s3 @ s4 @ s5, (subs t4 s5))
     end
 
-(* PART D - demonstration *)
+(* Tests *)
 (*
 ;W (Var "a") initenv;
 W (App(Int 1, Int 2)) initenv;
